@@ -10,14 +10,14 @@ function Cart() {
   const style = {"layout":"vertical"};
   const [isPaid, setIsPaid] = useState(false)
   //iva varia segun el pais 
-  const IVA = 0.16
+  
 
   const handleCreateOrder = (data, actions) => {
     const order = actions.order.create({
         purchase_units: [
             {
                 amount: {
-                    value: (cart.amount * (1 + IVA)).toFixed(2),
+                    value: (cart.amount).toFixed(2),
                     currency_code: "MXN"
                 },
                 description: "Compra de productos en UCamp Store",
@@ -98,7 +98,7 @@ const handlePaidOrder = (data, actions) => {
                 </Row>
                 <Row>
                     <Col>
-                             <span className='text-bold'> A pagar <sub>(Subtotal + IVA)</sub></span>: { cart.amount * (1 + IVA)}
+                             <span className='text-bold'> A pagar <sub>(Subtotal)</sub></span>: { cart.amount}
                     </Col>
                 </Row>
                 <hr/>
