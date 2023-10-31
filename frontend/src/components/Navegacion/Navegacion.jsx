@@ -42,7 +42,7 @@ useEffect(() => {
     <nav className='navbar'>
     <div className='navbar-container'>
           <Link onClick={closeMobileMenu} className='navbar-logo'> SCS Accesorios
-          <Icon.FaOldRepublic/>
+          
           {/* <img src={logo} alt="imagen" className='navbar-logo'/> */}
           </Link>     
 
