@@ -1,0 +1,22 @@
+
+.wrap{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding: 10px;
+    background:url("../../img/fondo-textura-acuarela-violeta.jpg") no-repeat center
+    center / cover;
+}
+.formContent{
+margin-top: 40px;
+}
+
+
+.form-reserva{
+    border: 2px solid black;
+    padding: 25px;
+    border-radius: 30px;
+    background-color: rgb(211, 174, 210);
+}

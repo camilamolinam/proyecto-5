@@ -1,0 +1,32 @@
+.cards-wrap{
+    margin-top: 20px;
+    padding-top: 2px;
+}
+.cards-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  align-items: stretch;
+  padding: 2rem;
+  
+}
+
+.titulo-prod1{
+    align-items: center;
+}
+.contenedormenu{
+    display: flex;
+    background:url("../../img/fondo-textura-acuarela-violeta.jpg") no-repeat center
+    center / cover;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-menu{
+ padding-bottom: 3rem;
+}

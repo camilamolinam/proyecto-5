@@ -1,0 +1,32 @@
+.cards-wrap{
+    margin-top: 20px;
+    padding-top: 2px;
+}
+.cards-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  align-items: stretch;
+  padding: 2rem;
+  
+}
+
+.titulo-prod1{
+    align-items: center;
+}
+.contenedormenu{
+    display: flex;
+    background:url("https://img.freepik.com/foto-gratis/fondo-textura-madera_53876-14865.jpg?w=1800&t=st=1683940989~exp=1683941589~hmac=02fe72087f164b9a4a2701e321e26bf52198271a932f128bfa86685eff85845e") no-repeat center
+    center / cover;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-menu{
+ padding-bottom: 3rem;
+}
