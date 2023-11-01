@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import {CartContext} from '../../context/cartContext'
 import { Row, Col, ListGroup, Alert } from 'react-bootstrap'
 import CartItem from './CartItem'
+import './Cart.css'
 
 import { PayPalButtons } from '@paypal/react-paypal-js'
 
@@ -102,7 +103,7 @@ const handlePaidOrder = (data, actions) => {
                     </Col>
                 </Row>
                 <hr/>
-                        
+                      <div className='paypalcontent'>
                         <Row>
                             <Col md={4}>
                                 {!isPaid ? (
@@ -121,6 +122,7 @@ const handlePaidOrder = (data, actions) => {
                                 
                             </Col>
                         </Row>
+                        </div>  
 
 
             </>

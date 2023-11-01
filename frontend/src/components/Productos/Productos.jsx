@@ -3,11 +3,13 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { CartContext } from '../../context/cartContext';
 import './Productos.css'
+import img1 from '../../img/scslogo.png'
+
 function Productos() {
 
     const {addProductToCart} = useContext(CartContext)
     const [productos, setProductos] = useState([]);
-    const uri_img = '../../img/'
+   //const uri_img = '../../img/scslogo.png'
 
     useEffect(() => {
         fetch('http://localhost:3001/productos/getProdList')
@@ -21,7 +23,7 @@ function Productos() {
                 {productos.map((producto, index) => {
                     return (
                     <Card className='card-menu' key={index} style={{ width: '18rem', background: 'transparent' }}>
-                    <Card.Img variant="top" src={`http://localhost:3001/`+producto.img} />
+                    <Card.Img variant="top" src={img1}/>
                     <Card.Body>
                       <Card.Title>{producto.nombre}</Card.Title>
                       <Card.Text>

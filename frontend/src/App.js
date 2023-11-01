@@ -27,7 +27,7 @@ function App() {
         <Route path='/Productos' element={<Productos />} />
         <Route path='/LogIn' element={<Login />} />
         <Route path='/Perfil' element={<Perfil />} />
-        <Route path='/cart' element={ <PayPalScriptProvider options={{ "client-id": "valor de tu cuenta de paypal", currency: "COP" }}>
+        <Route path='/cart' element={ <PayPalScriptProvider options={{ "client-id": "ARO3NSfTOYqBHDZ4maYkItC6bmTqXpYt-oLFPfFbqwF7mfHK6nO3B0GcTA6VnoSaTnUBDgOkqOBKQeUv", currency: "COP" }}>
             <Cart />
           </PayPalScriptProvider>} />
       </Routes>
