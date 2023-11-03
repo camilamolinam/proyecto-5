@@ -19,13 +19,13 @@ function Cart() {
             {
                 amount: {
                     value: (cart.amount).toFixed(2),
-                    currency_code: "MXN"
+                   // currency_code: "COP"
                 },
-                description: "Compra de productos en UCamp Store",
+                description: "Compra de productos en SGS ACCESORIOS",
                 shipping_preference: "NO_SHIPPING"
             }
         ],
-        merchant_name: "UCamp Store"
+        merchant_name: "SCS ACCESORIOS"
         
     })
 
