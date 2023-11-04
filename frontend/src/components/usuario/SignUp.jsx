@@ -20,7 +20,7 @@ function SignUp() {
   const onSave = async(event) =>{
     event.preventDefault();
     console.log(formData);
-    await fetch('http://localhost:3001/api/signUp', {
+    await fetch('https://backend-zqu0.onrender.com', {
         method: "POST",
         headers:{
             "Content-Type": "application/json"

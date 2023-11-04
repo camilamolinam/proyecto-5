@@ -12,7 +12,7 @@ function Productos() {
    //const uri_img = '../../img/scslogo.png'
 
     useEffect(() => {
-        fetch('http://localhost:3001/productos/getProdList')
+        fetch('https://backend-zqu0.onrender.com')
             .then(req => req.json()).then(result => setProductos(result.data))
     }, [])
    
