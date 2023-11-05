@@ -19,7 +19,7 @@ function Login() {
    const onSave = async (event) =>{
     event.preventDefault();
     
-    await fetch('https://backend-zqu0.onrender.com', {
+    await fetch('https://scsaccesorios.onrender.com/api/logIn', {
         method: "POST",
         headers:{
             "Content-Type": "application/json"

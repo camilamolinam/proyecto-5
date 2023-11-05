@@ -27,7 +27,7 @@ function App() {
         <Route path='/Productos' element={<Productos />} />
         <Route path='/LogIn' element={<Login />} />
         <Route path='/Perfil' element={<Perfil />} />
-        <Route path='/cart' element={ <PayPalScriptProvider options={{ "client-id": "AXfERKq-apZXQD_JGtKaWic1P5QVkDcXUVfiAuaoNw9kkGQGv0mzZE5fPUb7i6B5mC6EcNpFqxSOzcg_", currency:"COP"}}>
+        <Route path='/cart' element={ <PayPalScriptProvider options={{ "client-id": "AXfERKq-apZXQD_JGtKaWic1P5QVkDcXUVfiAuaoNw9kkGQGv0mzZE5fPUb7i6B5mC6EcNpFqxSOzcg_"}}>
             <Cart />
           </PayPalScriptProvider>} />
       </Routes>
